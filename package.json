@@ -1,0 +1,43 @@
+{
+  "name": "money-js",
+  "version": "0.1.0",
+  "description": "Money module can be used for obtaining currency rate and stock market information.",
+  "keywords": [
+    "money",
+    "currency",
+    "rate",
+    "stock",
+    "market",
+    "exchange"
+  ],
+  "homepage": "http://github.com/cmfatih/money",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmfatih/money.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cmfatih/money/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "cmfatih",
+    "url": "http://github.com/cmfatih"
+  },
+  "contributors": [],
+  "main": "lib/money.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
+  },
+  "engines": [
+    "node >= 0.10.22"
+  ],
+  "dependencies": {
+    "request": "2.x",
+    "xml2js": "0.4.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}

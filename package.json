@@ -1,6 +1,6 @@
 {
   "name": "money-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Money module can be used for obtaining currency rate and stock market information.",
   "keywords": [
     "money",

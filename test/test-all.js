@@ -9,17 +9,15 @@ var money  = require('../'),
 
 // Tests
 
-// Test for money module
+// Test for the module
 describe('money', function() {
 
   // Test for quote
   describe('quote()', function() {
+
     it('should get information', function(done) {
       money.quote({symbols: ['USDCAD', 'USDEUR', 'JPYUSD', 'TWTR','NASDAQ']}, function(err, result) {
-        if(err) {
-          done(err);
-          return;
-        }
+        if(err) return done(err);
 
         expect(err).to.be.equal(undefined);
 

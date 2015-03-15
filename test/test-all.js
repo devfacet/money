@@ -11,7 +11,7 @@ describe('money', function() {
 
   // quote
   describe('quote()', function() {
-    it('should get information', function(done) {
+    it.skip('should get information', function(done) {
       money.quote({symbols: ['USDCAD', 'USDEUR', 'JPYUSD', 'TWTR','NASDAQ']}, function(err, result) {
         if(err) return done(err);
 

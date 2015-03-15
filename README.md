@@ -1,29 +1,16 @@
 ## Money
+
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-[money](http://github.com/cmfatih/money) is a Node.js module for 
-obtaining currency rate and stock market information.  
+Money is a module for obtaining currency rate and stock market information.
 
 ### Installation
 
-For latest release
 ```
 npm install money-js
 ```
 
-For HEAD
-```
-git clone https://github.com/cmfatih/money.git
-```
-
 ### Usage
-
-#### Test
-```
-npm test
-```
-
-#### Examples
 
 ```javascript
 var money = require('money-js');
@@ -156,10 +143,6 @@ money.quote({symbols: [
 ### Notes
 
 * It uses `money.service.msn.com`
-
-### Changelog
-
-For all notable changes see [CHANGELOG.md](https://github.com/cmfatih/money/blob/master/CHANGELOG.md)
 
 ### License
 

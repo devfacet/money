@@ -1,7 +1,4 @@
-// JSHint Configuration
-
 {
-  "node": true,
   "eqeqeq": true,
   "trailing": true,
   "strict": true,

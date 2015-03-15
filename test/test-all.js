@@ -1,7 +1,5 @@
-// Init reqs
 /* jslint node: true */
-/* global describe: false */
-/* global it: false */
+/* global describe: false, it: false */
 'use strict';
 
 var money  = require('../'),
@@ -9,12 +7,10 @@ var money  = require('../'),
 
 // Tests
 
-// Test for the module
 describe('money', function() {
 
-  // Test for quote
+  // quote
   describe('quote()', function() {
-
     it('should get information', function(done) {
       money.quote({symbols: ['USDCAD', 'USDEUR', 'JPYUSD', 'TWTR','NASDAQ']}, function(err, result) {
         if(err) return done(err);
@@ -60,4 +56,5 @@ describe('money', function() {
       });
     });
   });
+
 });

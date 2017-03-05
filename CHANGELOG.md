@@ -1,17 +1,17 @@
-## Changelog
+# Changelog
 
-### 1.0.1 (2015-03-15)
+## 1.0.1 (2015-03-15)
 
-* Misc. updates
+- Misc. updates
 
-### 1.0.0 (2014-07-04)
+## 1.0.0 (2014-07-04)
 
-* Stable release
+- Stable release
 
-### 0.1.1 (2014-06-14)
+## 0.1.1 (2014-06-14)
 
-* Changes for timeout
+- Changes for timeout
 
-### 0.1.0 (2014-06-11)
+## 0.1.0 (2014-06-11)
 
-* Initial release
+- Initial release

@@ -1,16 +1,16 @@
-## Money
+# Money
 
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Money is a module for obtaining currency rate and stock market information.
 
-### Installation
+## Installation
 
-```
+```bash
 npm install money-js
 ```
 
-### Usage
+## Usage
 
 ```javascript
 var money = require('money-js');
@@ -140,17 +140,17 @@ money.quote({symbols: [
 */
 ```
 
-### Notes
+## Notes
 
 * It uses `money.service.msn.com`
 
-### License
+## License
 
 Licensed under The MIT License (MIT)  
 For the full copyright and license information, please view the LICENSE.txt file.
 
 [npm-url]: http://npmjs.org/package/money-js
-[npm-image]: https://badge.fury.io/js/money-js.png
+[npm-image]: https://badge.fury.io/js/money-js.svg
 
-[travis-url]: https://travis-ci.org/cmfatih/money
-[travis-image]: https://travis-ci.org/cmfatih/money.svg?branch=master
+[travis-url]: https://travis-ci.org/devfacet/money
+[travis-image]: https://travis-ci.org/devfacet/money.svg?branch=master

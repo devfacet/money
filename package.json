@@ -1,6 +1,6 @@
 {
   "name": "money-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for obtaining currency rate and stock market information",
   "main": "index.js",
   "scripts": {
